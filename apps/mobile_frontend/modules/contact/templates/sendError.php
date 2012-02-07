@@ -1,0 +1,1 @@
+<?php echo __('Some errors occurred when sending e-mail. Please send again later.'); ?>

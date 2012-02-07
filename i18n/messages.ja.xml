@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="1">
+        <source>Contact mail</source>
+        <target>お問合せメール</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Your request has sent successfully. Thank you.</source>
+        <target>お問合せを承りました。</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Some errors occurred when sending e-mail. Please send again later.</source>
+        <target>メール送信時エラーが発生しました。フォームに戻って送信し直してください。</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Contact form</source>
+        <target>お問合せフォーム</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Confirm</source>
+        <target>送信内容確認</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Confirmation to send request</source>
+        <target>お問合せ送信内容の確認</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+

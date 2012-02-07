@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="1">
+        <source>Mail subject</source>
+        <target>メールのタイトル</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Save remote addr</source>
+        <target>IPアドレスを記録する</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Is return confirm</source>
+        <target>問合せした人にも確認メールを送信する</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+

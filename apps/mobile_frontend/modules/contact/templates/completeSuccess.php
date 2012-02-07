@@ -1,0 +1,1 @@
+<?php echo __('Your request has sent successfully. Thank you.'); ?>
