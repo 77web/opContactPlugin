@@ -26,6 +26,22 @@
         <source>Confirmation to send request</source>
         <target>お問合せ送信内容の確認</target>
       </trans-unit>
+      <trans-unit id="7">
+        <source>Thank you for your request</source>
+        <target>お問合せありがとうございました。</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Sent at</source>
+        <target>送信日時</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Remote host</source>
+        <target>送信元</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Thank you for your request. This is confirmation.</source>
+        <target>この度はお問合せいただきありがとうございます。下記内容で承りました。</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

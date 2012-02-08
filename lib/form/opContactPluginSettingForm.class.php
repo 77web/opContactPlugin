@@ -15,6 +15,10 @@ class opContactPluginSettingForm extends BaseForm
     //return confirm
     $this->setWidget('is_return_confirm', new sfWidgetFormInputCheckbox(array('default'=>(bool)$this->getDefaultValue('is_return_confirm'))));
     $this->setValidator('is_return_confirm', new sfValidatorBoolean());
+
+    //confirm mail subject
+    $this->setWidget('confirm_mail_subject', new sfWidgetFormInput(array('default'=>$this->getDefaultValue('confirm_mail_subject'))));
+    $this->setValidator('confirm_mail_subject', new sfValidatorString());
     
     $this->getWidgetSchema()->setNameFormat($this->getName().'[%s]');
     $this->getWidgetSchema()->getFormFormatter()->setTranslationCatalogue('form_opContactPlugin_setting');

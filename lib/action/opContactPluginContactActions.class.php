@@ -52,8 +52,9 @@ class opContactPluginContactActions extends sfActions
       
       if((bool)opConfig::get('opContactPlugin_is_return_confirm', false))
       {
+        $title2 = opConfig::get('opContactPlugin_confirm_mail_subject', __('Thank you for your request'));
         $body2 = get_partial('contact/confirmMail', array('form'=>$this->form));
-        opMailSend::execute($title, $this->form->getEmail(), $from, $body2);
+        opMailSend::execute($title2, $this->form->getEmail(), $from, $body2);
       }
     }
     catch(Exception $e)
@@ -66,6 +67,7 @@ class opContactPluginContactActions extends sfActions
   
   public function executeComplete(sfWebRequest $request)
   {
+    $this->redirectUnless($this->getUser()->getAttribute(self::SAVE_ATTR_NAME, false), 'contact/form');
     $this->getUser()->setAttribute(self::SAVE_ATTR_NAME, null);
     
     return sfView::SUCCESS;
