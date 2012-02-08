@@ -1,0 +1,16 @@
+OpenPNE3.xにお問合せフォームを追加するプラグインです。
+2012.02.08現在、OpenPNE3.6.1のみ動作確認済。
+
+インストール
+--------------
+
+http://github.com/77web/opContactPlugin/tags からzipをダウンロードして、ご自分のSNSのpluginsディレクトリ内にopContactPluginの名前で展開して下さい。
+
+※専用データベーステーブルを使わないので、opPlugin:installコマンドなしでも使えます。
+
+利用方法
+--------------
+
+* お問合せメールの送信先はSNS管理者のメールアドレスです。SNS管理画面(pc_backend)のSNS設定で変更してください。
+* お問合せメールの件名、送信者のリモートホスト記録の有無、自動返信の有無、自動返信メールの件名は変更できます。SNS管理画面(pc_backend)のプラグイン設定からopContactPluginの設定画面をご利用ください。
+* お問合せの項目をカスタマイズしたい場合は、sfFormのドキュメント( http://www.symfony-project.org/forms/1_4/ja/ )をお読みの上、lib/form/opContactPluginContactForm.class.phpのconfigureメソッドを自由に使って下さい。
